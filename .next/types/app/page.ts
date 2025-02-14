@@ -1,4 +1,4 @@
-// File: C:\xampp\htdocs\rmfilter\app\page.tsx
+// File: C:\Users\kaank\Documents\GitHub\RM-Filter\app\page.tsx
 import * as entry from '../../../app/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
