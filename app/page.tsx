@@ -1,8 +1,8 @@
 "use client";
-import { useEffect, useState } from "react";
-import CharacterCard from "@/components/CharacterCard";
-import FilterSection from "@/components/FilterSection";
-import CharacterList from '@/components/CharacterList';
+// import { useEffect, useState } from "react";
+// import CharacterCard from "@/components/CharacterCard";
+// import FilterSection from "@/components/FilterSection";
+// import CharacterList from '@/components/CharacterList';
 
 interface Character {
   id: number;
@@ -23,8 +23,8 @@ export default function Home() {
         <h1 className="text-4xl font-bold text-center mb-8">
           Rick and Morty Karakterleri
         </h1>
-        <FilterSection />
-        <CharacterList />
+        {/* <FilterSection /> */}
+        {/* <CharacterList /> */}
       </div>
     </main>
   );
