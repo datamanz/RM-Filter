@@ -4,17 +4,17 @@
 // import FilterSection from "@/components/FilterSection";
 // import CharacterList from '@/components/CharacterList';
 
-interface Character {
-  id: number;
-  name: string;
-  status: string;
-  species: string;
-  gender: string;
-  image: string;
-  location: {
-    name: string;
-  };
-}
+// interface Character {
+//   id: number;
+//   name: string;
+//   status: string;
+//   species: string;
+//   gender: string;
+//   image: string;
+//   location: {
+//     name: string;
+//   };
+// }
 
 export default function Home() {
   return (
