@@ -9,9 +9,6 @@ const nextConfig = {
       },
     ],
     domains: ['rickandmortyapi.com'],
-  },
-  experimental: {
-    optimizeFonts: false,
   }
 }
 
