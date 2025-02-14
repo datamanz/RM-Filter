@@ -3,7 +3,6 @@
 import { useCharacters } from '@/hooks/useCharacters';
 import CharacterCard from './CharacterCard';
 import { Skeleton } from '@/components/ui/skeleton';
-import { type ReactElement } from 'react';
 
 export default function CharacterList() {
   const { data, isLoading, error } = useCharacters();

@@ -8,7 +8,9 @@ const nextConfig = {
         pathname: '/api/character/avatar/**',
       },
     ],
+    domains: ['rickandmortyapi.com'],
   },
+  optimizeFonts: false,
 }
 
 module.exports = nextConfig 
