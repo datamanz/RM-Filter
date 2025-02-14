@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 interface CharacterCardProps {
   character: {
     name: string;
@@ -20,11 +22,15 @@ export default function CharacterCard({ character }: CharacterCardProps) {
 
   return (
     <div className="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg transition-transform hover:scale-105">
-      <img
-        src={character.image}
-        alt={character.name}
-        className="w-full h-48 object-cover"
-      />
+      <div className="relative w-full h-48">
+        <Image
+          src={character.image}
+          alt={character.name}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+        />
+      </div>
       <div className="p-4">
         <h2 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">
           {character.name}
