@@ -1,6 +1,6 @@
 'use client';
 
-import { useCharacterStore } from '@/store/useCharacterStore';
+import { useCharacterStore } from '@/store/characters';
 import {
   Select,
   SelectContent,
@@ -22,7 +22,7 @@ import {
   FilterIcon
 } from 'lucide-react';
 
-export default function FilterSection(): JSX.Element {
+export default function FilterSection() {
   const { filters, setFilters, resetFilters } = useCharacterStore();
   
   const statuses = [

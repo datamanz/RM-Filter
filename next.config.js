@@ -10,7 +10,9 @@ const nextConfig = {
     ],
     domains: ['rickandmortyapi.com'],
   },
-  optimizeFonts: false,
+  experimental: {
+    optimizeFonts: false,
+  }
 }
 
 module.exports = nextConfig 
